@@ -1,0 +1,57 @@
+{
+  "geraet" : {
+    "konfiguration" : {
+      "name" : "APK",
+      "serviceId" : 0,
+      "eintragFachinformationstyp" : 118,
+      "gdtKonfiguration" : {
+        "gdtId" : "APK2GDT",
+        "gdtAbsender" : "T2MED_PX",
+        "gdtKuerzel" : "APK2",
+        "geraetVerfahren" : "APK01",
+        "testIdent" : null,
+        "zeichensatz" : "2",
+        "betriebsmodus" : 3,
+        "anzeigeZeitpunkt" : 1,
+        "einzelverarbeitung" : false,
+        "abweichendeImportdatei" : "T2MDAPK2.gdt",
+        "abweichendeExportdatei" : "APK2T2MD.gdt",
+        "langzeitmessung" : false,
+        "serienmessung" : false,
+        "annahmeOhneMessauftrag" : false,
+        "dezimalzeichen" : 1,
+        "satzart" : 1,
+        "automatischeZuordnung" : 1
+      },
+      "dokumenteUebernehmen" : false,
+      "kurzeintragGewuenscht" : true,
+      "koerpermassStrukturiertUebernehmen" : false,
+      "kostentraegerIKUebertragen" : false,
+      "sswUebertragen" : false,
+      "telefonUebertragen" : false,
+      "emailUebertragen" : false,
+      "zeitpunktUebernehmen" : true,
+      "messauftragGruppenweitSuchen" : false,
+      "inhaltsbeschreibungUebernehmen" : false,
+      "anzahlDerZeilen" : 1,
+      "messergebnisPraesentationTyp" : 1,
+      "freieKategorieAuswertung" : 1,
+      "nachtraeglicheBefundung" : 1,
+      "verwendeteMessergebnisFelder" : [ 5 ],
+      "gruppe" : null
+    },
+    "stationZuordnung" : {
+      "importverzeichnis" : "C:\\GDT",
+      "exportverzeichnis" : "C:\\GDT",
+      "programm" : "C:\\Program Files\\APK2GDT\\APK2GDT2.exe",
+      "parameter" : "C:\\GDT\\APK2T2MD.gdt",
+      "wiederaufrufProgramm" : null,
+      "wiederaufrufParameter" : "",
+      "verwendungszweck" : 1,
+      "separatKonfiguriert" : false,
+      "einleseverzoegerung" : null,
+      "messgeraetVerbergen" : false,
+      "netzwerkpfad" : false
+    }
+  }
+}
